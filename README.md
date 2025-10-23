@@ -44,6 +44,6 @@
 プログラミング学習の進捗や制作物の更新状況は、Xにて随時投稿しています。  
 学習の様子やコードに興味がありましたら、ぜひご覧ください。
 
-➡️ [Xで学習状況を見る](https://x.com/hitoshiyagi)  
+➡️ [Xで学習状況を見る](https://x.com/web_yagi)  
 ➡️ [GitHubでリポジトリを見る](https://github.com/hitoshiyagi?tab=repositories)
 
