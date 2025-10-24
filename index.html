@@ -1,162 +1,74 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>矢木仁志 - ITエンジニア志望</title>
-  <link rel="stylesheet" href="bootstrap.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>八木仁志 - ITエンジニア志望</title>
   <style>
     body {
-      background-color: #fff;
-      font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-      padding: 20px;
+      font-family: 'Noto Sans JP', sans-serif;
+      line-height: 1.8;
       color: #333;
+      background-color: #fafafa;
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
     }
-    h1 {
-      background-color: #6CC24A;
-      color: #fff;
-      padding: 10px 15px;
-      border-radius: 6px;
-      margin-bottom: 30px;
+    h1, h2 {
+      color: #5AA647; /* プロビズモの黄緑系カラー */
     }
-    .accordion-button {
-      color: #333;
-      font-weight: 600;
-    }
-    .accordion-button:not(.collapsed) {
-      color: #fff;
-      background-color: #A8D47A;
-    }
-    .accordion-body a {
-      color: #6CC24A;
+    a {
+      color: #5AA647;
       text-decoration: none;
     }
-    .accordion-body a:hover {
+    a:hover {
       text-decoration: underline;
     }
-    .links img {
-      width: 120px;
-      margin: 10px;
-    }
-    .intro-text {
-      margin-bottom: 15px;
+    .links {
+      margin-top: 20px;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>矢木仁志 - ITエンジニア志望</h1>
 
-    <!-- はじめに -->
-    <h2>はじめに</h2>
-    <p class="intro-text">
-      印刷業界で20年の営業経験を経て、IT分野への転身を決意。<br>
-      現在はPHP、JavaScript、SQLを中心にプログラミング学習中で、学習への意欲と継続力を強みとしています。
-    </p>
-    <div class="accordion" id="introAccordion">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingIntro">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIntro" aria-expanded="false" aria-controls="collapseIntro">
-            詳細を見る
-          </button>
-        </h2>
-        <div id="collapseIntro" class="accordion-collapse collapse" aria-labelledby="headingIntro">
-          <div class="accordion-body">
-            <!-- 詳細文章はここに追加 -->
-          </div>
-        </div>
-      </div>
-    </div>
+  <h1>八木仁志 - ITエンジニア志望</h1>
 
-    <!-- 職務経験と強み -->
-    <h2>職務経験と強み</h2>
-    <p class="intro-text">
-      約300社の顧客管理・広報誌制作を担当。顧客課題のヒアリング力と調整力で円滑な進行を実現。
-    </p>
-    <div class="accordion" id="experienceAccordion">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingExperience">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExperience" aria-expanded="false" aria-controls="collapseExperience">
-            詳細を見る
-          </button>
-        </h2>
-        <div id="collapseExperience" class="accordion-collapse collapse" aria-labelledby="headingExperience">
-          <div class="accordion-body">
-            <!-- 詳細文章はここに追加 -->
-          </div>
-        </div>
-      </div>
-    </div>
+  <h2>はじめに</h2>
+  <p>印刷業界での20年の経験を経て、IT分野への転身を決意しました。<br>
+  現在はプログラミング学習に取り組み、エンジニアとしてのスキルを習得中です。<br>
+  特に学習への意欲と継続力を強みとして、日々努力を重ねています。</p>
 
-    <!-- 学習歴・スキル -->
-    <h2>学習歴・スキル</h2>
-    <p class="intro-text">
-      Web開発、フレームワーク、開発環境・ツール、ノーコードでの実務経験あり。
-    </p>
-    <div class="accordion" id="skillsAccordion">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingSkills">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSkills" aria-expanded="false" aria-controls="collapseSkills">
-            詳細を見る
-          </button>
-        </h2>
-        <div id="collapseSkills" class="accordion-collapse collapse" aria-labelledby="headingSkills">
-          <div class="accordion-body">
-            <!-- 詳細文章はここに追加 -->
-          </div>
-        </div>
-      </div>
-    </div>
+  <h2>職務経験と強み</h2>
+  <ul>
+    <li><strong>営業経験と課題解決力：</strong>印刷業の営業として約20年間勤務。広報誌制作を中心に、顧客管理・進行管理を担当し、約300社の顧客を担当。顧客課題のヒアリング力と調整力を活かし、社内外の関係者と連携しながら円滑な進行を実現。</li>
+    <li><strong>業務効率化の実績：</strong>Excel VBAを用いた仕分け作業の自動化で年間120時間の工数削減。Google AppSheetを使った在庫管理アプリ開発により業務効率化を推進。</li>
+    <li><strong>課題解決とチーム貢献力：</strong>プログラミング学習ではチーム開発を経験。仕様や要件を正確に把握し、UI改善や機能追加を行うことで完成度の高い成果物を作り上げました。</li>
+  </ul>
 
-    <!-- 志望動機 -->
-    <h2>志望動機</h2>
-    <p class="intro-text">
-      印刷業での経験から業界のデジタル化の必要性を実感し、ITで新たな価値を生み出すため転身。
-    </p>
-    <div class="accordion" id="motivationAccordion">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingMotivation">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMotivation" aria-expanded="false" aria-controls="collapseMotivation">
-            詳細を見る
-          </button>
-        </h2>
-        <div id="collapseMotivation" class="accordion-collapse collapse" aria-labelledby="headingMotivation">
-          <div class="accordion-body">
-            <!-- 詳細文章はここに追加 -->
-          </div>
-        </div>
-      </div>
-    </div>
+  <h2>学習歴・スキル</h2>
+  <ul>
+    <li>Webシステム開発：HTML/CSS、JavaScript、PHP、SQL/MySQL</li>
+    <li>フレームワーク：Laravel</li>
+    <li>バージョン管理：Git/GitHub</li>
+    <li>UI設計：Bootstrap</li>
+    <li>ノーコード：Google AppSheet（在庫管理アプリ開発経験）</li>
+  </ul>
 
-    <!-- 最後に -->
-    <h2>最後に</h2>
-    <p class="intro-text">
-      地元企業のIT化や業務効率化に貢献できるエンジニアとして成長し、地域社会に貢献したいです。
-    </p>
-    <div class="accordion" id="conclusionAccordion">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingConclusion">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseConclusion" aria-expanded="false" aria-controls="collapseConclusion">
-            詳細を見る
-          </button>
-        </h2>
-        <div id="collapseConclusion" class="accordion-collapse collapse" aria-labelledby="headingConclusion">
-          <div class="accordion-body">
-            📱 学習状況や制作の進捗は以下よりご覧いただけます：
-            <ul>
-              <li><a href="https://x.com/web_yagi" target="_blank">X（旧Twitter）</a></li>
-              <li><a href="https://github.com/hitoshiyagi?tab=repositories" target="_blank">GitHub リポジトリ一覧</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+  <h2>志望動機</h2>
+  <p>印刷会社での営業経験を通じ、業界全体のデジタル化や市場縮小を肌で感じました。<br>
+  こうした経験から、成長性のある分野で新たな価値を生み出すため、IT分野への転身を決意。<br>
+  高校時代のWeb制作経験も原点に、顧客課題のヒアリング力とプログラミングスキルを掛け合わせ、地域や企業のデジタル化推進に貢献できるエンジニアを目指しています。</p>
 
+  <h2>最後に</h2>
+  <p>地元企業のIT化や業務効率化に貢献できるエンジニアとして成長し、地域社会に貢献したいと考えています。</p>
+  <p>プログラミング学習の進捗や制作物の更新状況は、XやGitHubにて随時投稿しています。<br>
+  学習の様子やコードに興味がありましたら、ぜひご覧ください。</p>
+
+  <div class="links">
+    ➡️ <a href="https://x.com/hitoshiyagi" target="_blank">Xで学習状況を見る</a><br>
+    ➡️ <a href="https://github.com/hitoshiyagi?tab=repositories" target="_blank">GitHubでリポジトリを見る</a>
   </div>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
-
