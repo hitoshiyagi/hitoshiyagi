@@ -88,6 +88,7 @@
 
     <h1>LaraMate 命名ジェネレータ</h1>
     <p>キーワードを入力すると、モデル・テーブル・コントローラ・ビュー・DB名を自動生成し、手順に反映します。</p>
+    <p>手順に沿って進めることで、ミスなくLaravelの新規プロジェクトを構築できます。</p>
 
     <div class="keyword-box mb-4">
         <div class="input-group">
@@ -255,7 +256,7 @@
 
         <div class="mb-4">
             <h3>ステップ⑫：マイグレーション作成</h3>
-            <p>アプリで必要なカスタムテーブル（members）の設計図（マイグレーションファイル）を生成し、カラム構造をコードで定義します。</p>
+            <p>アプリで必要なカスタムテーブルの設計図（マイグレーションファイル）を生成し、カラム構造をコードで定義します。</p>
             <div class="code-container">
                 <div class="code-header">
                     💾 コード
@@ -267,7 +268,7 @@
 
         <div class="mb-4">
             <h3>ステップ⑬：マイグレーション実行（自作テーブル）</h3>
-            <p>手順⑫で定義した members テーブルの設計図を読み込み、データベースに実際のテーブルを作成します。</p>
+            <p>手順⑫で定義したテーブルの設計図を読み込み、データベースに実際のテーブルを作成します。</p>
             <div class="code-container">
                 <div class="code-header">
                     💾 コード
@@ -279,7 +280,7 @@
 
         <div class="mb-4">
             <h3>ステップ⑭：モデル作成</h3>
-            <p>データベースの members テーブルとやり取りをするための Member モデル を作成し、データの操作ルール（$fillable など）を定義します。</p>
+            <p>データベースのテーブルとやり取りをするための モデル を作成し、データの操作ルール（$fillable など）を定義します。</p>
             <div class="code-container">
                 <div class="code-header">
                     💾 コード
@@ -291,7 +292,7 @@
 
         <div class="mb-4">
             <h3>ステップ⑮：コントローラ作成</h3>
-            <p>ユーザーからのリクエストを受け付け、処理を行い、ビューを返す役割を持つ MemberController を作成します。ここでデータを取得し、ビューに渡します。</p>
+            <p>ユーザーからのリクエストを受け付け、処理を行い、ビューを返す役割を持つ Controller を作成します。ここでデータを取得し、ビューに渡します。</p>
             <div class="code-container">
                 <div class="code-header">
                     💾 コード
@@ -303,7 +304,7 @@
 
         <div class="mb-4">
             <h3>ステップ⑯：ルート設定</h3>
-            <p>特定のURL（/members）へのアクセスがあったときに、どのコントローラーのどのメソッド（MemberController の index）を実行するかを定義します。</p>
+            <p>特定のURLへのアクセスがあったときに、どのコントローラーのどのメソッドを実行するかを定義します。</p>
             <div class="code-container">
                 <div class="code-header">
                     💾 コード
@@ -315,7 +316,7 @@
 
         <div class="mb-4">
             <h3>ステップ⑰：ビュー呼び出し</h3>
-            <p>コントローラーから渡されたデータ（$members）を受け取り、HTMLとして整形して画面に表示するためのテンプレートファイル（View）を作成します。</p>
+            <p>コントローラーから渡されたデータを受け取り、HTMLとして整形して画面に表示するためのテンプレートファイル（View）を作成します。</p>
             <div class="code-container">
                 <div class="code-header">
                     💾 コード
@@ -327,7 +328,7 @@
 
         <div class="mb-4">
             <h3>ステッ⑱：動作確認</h3>
-            <p>サーバーを起動し、ブラウザで http://127.0.0.1:8000/users にアクセス。</p>
+            <p>サーバーを起動し、ブラウザで http://127.0.0.1:8000/ にアクセス。</p>
             <div class="code-container">
                 <div class="code-header">
                     💾 コード
