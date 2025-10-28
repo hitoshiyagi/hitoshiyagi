@@ -1,5 +1,3 @@
-
-
         // Enterキーで生成
         document.getElementById('keyword').addEventListener('keydown', function(e) {
             if (e.key === 'Enter') generate();
@@ -88,4 +86,3 @@
             button.innerText = '✅ コピー済み';
             setTimeout(() => button.innerText = '📋 コピー', 1500);
         }
-    
