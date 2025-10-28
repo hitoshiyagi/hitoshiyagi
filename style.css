@@ -42,8 +42,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: #454545;
-            color: #efefef;
+            background: #efefef;
+            color: #000000;
             padding: 8px 12px;
             border-top-left-radius: 8px;
             border-top-right-radius: 8px;
