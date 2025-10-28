@@ -1,5 +1,4 @@
-
-        body {
+       body {
             font-family: 'Noto Sans JP', sans-serif;
             background: #f8f9fa;
             margin: 30px;
@@ -42,8 +41,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: #efefef;
-            color: #000000;
+            background: #454545;
+            color: #efefef;
             padding: 8px 12px;
             border-top-left-radius: 8px;
             border-top-right-radius: 8px;
